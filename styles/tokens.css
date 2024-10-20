@@ -1,0 +1,21 @@
+:root {
+   --wp--primary--color--white: #fff;
+   --wp--primary--color--darkGrey: #585858;
+   --wp--secondary--color--black: #000;
+   --wp--primary--font--family: Arial, Helvetica, sans-serif;
+   --wp--secondary1--font--family: "Kanit", sans-serif;
+   --wp--secondary2--font--family: 'Times New Roman', Times, serif;
+   --wp--font--size--large: 35px;
+   --wp--font--size--medium1: 24px;
+   --wp--font--size--medium2: 20px;
+   --wp--font--size--medium3: 17px;
+   --wp--font--size--small: 15px;
+   --wp--spacing--5: 5px;
+   --wp--spacing--10: 10px;
+   --wp--spacing--15: 15px;
+   --wp--spacing--20: 20px;
+   --wp--spacing--30: 30px;
+   --wp--spacing--40: 40px;
+   --wp--spacing--50: 50px;
+   --wp--spacing--100: 100px;
+}

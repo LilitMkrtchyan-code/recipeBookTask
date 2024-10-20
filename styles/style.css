@@ -1,0 +1,104 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   background: var(--wp--primary--color--white);
+   color: var(--wp--primary--color--darkGrey);
+   font-family: var(--wp--primary--font--family);
+   font-size: var(----wp--spacing--15);
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+/* recipe-description-section */
+.page .recipe-description-section {
+   margin-bottom: var(--wp--spacing--20);
+}
+
+.page .recipe-description-section .description-title {
+   font-family: var(--wp--secondary1--font--family);
+   font-size: var(--wp--font--size--large);
+   line-height: 1.5;
+   color: var(--wp--secondary--color--black);
+   margin-bottom: var(--wp--spacing--20);
+}
+
+.recipe-description-section .description {
+   color: var(--wp--secondary--color--black);
+   font-family: var(--wp--secondary2--font--family);
+   font-style: italic;
+   font-size: var(--wp--font--size--medium3);
+   margin-bottom: var(--wp--spacing--15);
+}
+
+/* ingredients-section */
+.page .ingredients-section {
+   margin: var(--wp--spacing--20) 
+   0 var(--wp--spacing--100);
+}
+
+.ingredients-section .ingredients-title {
+   font-family: var(--wp--secondary1--font--family);
+   font-size: var(--wp--font--size--medium1);
+   color: var(--wp--secondary--color--black);
+   margin-bottom: var(--wp--spacing--15);
+}
+
+.page .ingredients-section .dish {
+   margin: var(--wp--spacing--15) 0;
+}
+
+ .page .dish .dish-title {
+   font-family: var(--wp--secondary1--font--family);
+   font-size: var(--wp--font--size--medium2);
+   color: var(--wp--secondary--color--black);
+   margin-bottom: var(--wp--spacing--15);
+}
+
+.ingredients-section .ingredient-list {
+   padding-left:var(--wp--spacing--15);
+   list-style-position: inside;
+}
+
+.ingredients-section .ingredient-list li {
+   font-family: var(--wp--primary--font--family);
+   font-size: var(--wp--font--size--small);
+   color: var(--wp--primary--color--darkGrey);
+}
+
+/* instructions-section */
+.instructions-title {
+   font-family: var(--wp--secondary1--font--family);
+   font-size: var(--wp--font--size--medium1);
+   color: var(--wp--secondary--color--black);
+   margin-bottom: var(--wp--spacing--15);
+}
+
+.instructions-section .instructions-list {
+   list-style-position: inside;
+   padding-left: var(--wp--spacing--15);
+}
+
+.instructions-section .instructions-list li {
+   font-family: var(--wp--primary--font--family);
+   font-size: var(--wp--font--size--small);
+   color: var(--wp--primary--color--darkGrey);
+   margin-bottom: var(--wp--spacing--10);
+   padding-left: 17px; 
+   text-indent: -17px;
+}
